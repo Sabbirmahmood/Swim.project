@@ -1,0 +1,568 @@
+/*Global CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Fonts Family
+font-family: 'Montserrat', sans-serif;*/
+
+/*============
+	Global CSS
+=============*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*============
+	Header CSS
+=============*/
+header{
+	background: #000;
+	padding: 5px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 25px;
+    margin-top: -50px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.img-logo{
+	width: 70px;
+}
+.sticky{
+	position: fixed;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+}
+/*============
+	Banner CSS
+=============*/
+.banner{
+	background: url(../img/banner-back.png) no-repeat center top;
+	background-size: cover;
+	padding: 200px 0;
+	position: relative;
+}
+.banner h1{
+	color: #fff;
+    margin-top: 90px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner h2{
+	color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner h3{
+	color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner h4{
+	color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.banner h5{
+	color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 20px;
+}
+.banner p{
+	color: #fff;
+    padding: 30px 0;
+    font-size: 23px;
+    width: 70%;
+    margin-top: 135px;
+}
+.btn-read{
+	color: #fff;
+    background: #e550ed;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.img-side1{
+	position: absolute;
+	left: 0;
+    width: 540px;
+    top: 150px;
+}
+.img-side2{
+	position: absolute;
+    bottom: 150px;
+    right: 400px;
+    width: 10%;
+}
+.img-side3{
+	position: absolute;
+    right: 0;
+    width: 22%;
+}
+.devider{
+	width: 50px;
+	height: 3px;
+	background: #fff;
+	margin-left: 580px;
+}
+/*============
+	Content CSS
+=============*/
+.content{
+	background: url(../img/content-back.png) no-repeat center top;
+	background-size: cover;
+	padding: 100px 0;
+}
+.content h1{
+	font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content h2{
+	font-size: 32px;
+    font-weight: 600;
+}
+.content p{
+	font-size: 15px;
+    font-weight: 500;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.item{
+	border: 1px solid #f3f0f0;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 12px #8b8a90;
+    width: 90%;
+}
+.img-content1{
+	padding: 25px;
+}
+
+/*============
+	Course CSS
+=============*/
+.course{
+	padding: 100px 0;
+	background: #432e8b;
+	position: relative;
+}
+.course h1{
+	color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.carrier{
+	padding: 60px 0;
+}
+.course-item h2{
+	color: #fff;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.course-item h3{
+	color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.course-item p{
+	color: #fff;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.img-sid1{
+	position: absolute;
+    left: 0;
+    top: 260px;
+    width: 25%;
+}
+.img-sid2{
+	position: absolute;
+    width: 10%;
+    bottom: -80px;
+    right: 170px;
+}
+
+/*============
+	About CSS
+=============*/
+.about{
+	padding: 100px 0;
+	position: relative;
+}
+.sky{
+	width: 47%;
+    height: 40%;
+    background: #00dde4;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 0;
+}
+.about h1{
+	font-size: 50px;
+    font-weight: 700;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+.about h2{
+	text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 600;
+}
+.about h3{
+	text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 600;
+}
+.about p{
+	width: 70%;
+    padding: 22px 0px;
+    font-weight: 500;
+}
+.sid4-img{
+	position: absolute;
+    bottom: -100px;
+    left: 25%;
+}
+
+/*============
+	Instructor CSS
+=============*/
+.instructor{
+	padding: 100px 0;
+	background: #432e8b; 
+}
+.instructor h1{
+	color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+.person h2{
+	padding: 10px 0;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.person p{
+	text-transform: uppercase;
+    font-size: 15px;
+}
+.img-ins{
+	position: relative;
+}
+.info{
+	background: #00dde4;
+    width: 14%;
+    height: 14%;
+    margin: -60px auto;
+    position: absolute;
+    left: 26%
+}
+.img-ins2{
+	position: relative;
+}
+.cont{
+	background: #00dde4;
+    width: 14%;
+    height: 14%;
+    margin: -60px auto;
+    position: absolute;
+    left: 26%
+}
+
+.social-media{
+	padding-top: 50px;
+}
+.social-media ul li{
+	list-style: none;
+	color: #fff;
+	margin: 0 10px;
+	display: inline;
+	padding: 0 1px;
+}
+.social-media ul li a .fa{
+	color: #000;
+	background: #fff;
+	text-align: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	line-height: 42px;
+	font-size: 25px;
+	transition: 0.4s ease-in-out;
+    margin-bottom: 40px;
+}
+
+/*============
+	Review CSS
+=============*/
+.review{
+	padding: 100px 0;
+	background: rgba(1, 1, 1, 0.2);
+}
+.review h1{
+	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+.reviewer{
+	background: #fff;
+	padding: 12px 0;
+	box-shadow: 0px 0px 20px #21252996;
+	width: 94%;
+}	
+.reviewer ul{
+	margin-right: 25px;
+}
+.reviewer ul li{
+	list-style: none;
+	display: inline;
+}
+.reviewer ul li a{
+	color: yellow;
+    font-size: 35px;
+    padding: 15px;
+}
+.reviewer h2{
+	text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.reviewer p{
+	color: #000;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 35px;
+    font-weight: 500;
+}
+.img-cal{
+	width: 30%;
+	padding-top: 60px;
+}
+
+/*============
+	Gallery CSS
+=============*/
+.gallery{
+	padding: 100px 0;
+	background: #00dde4;
+}
+.gallery h1{
+	font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px 0;
+}
+.gallery p{
+	text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.img-gal{
+	width: 100%;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    text-align: center;
+}
+.item-info{
+	padding: 60px 0;
+}
+.item-info h2{
+	padding-top: 45px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*============
+	App CSS
+=============*/
+.app{
+	background: url(../img/app.png) no-repeat center top;
+	background-size: cover;
+	padding: 100px 0;
+}
+.app h1{
+	color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+.app h2{
+	color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-download{
+	margin-top: 700px;
+    margin-left: 65px;
+    background: #00dde4;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*============
+	Register CSS
+=============*/
+.register{
+	padding: 100px 0;
+	background: url(../img/register.png) no-repeat center top;
+	background-size: cover;
+}
+.register h1{
+	color: #00dde4;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.register p{
+	color: #fff;
+    width: 55%;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn-book{
+	margin-top: 20px;
+    margin-left: 20px;
+    background: #00dde4;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*============
+	Footer CSS
+=============*/
+
+footer{
+	padding: 100px 0;
+	background: #432e8b;
+}
+footer h1{
+	color: #00dde4;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+footer h2{
+	color: #00dde4;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+footer h3{
+	color: #00dde4;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+footer h4{
+	color: #00dde4;
+    padding-top: 53px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer h5{
+	color: #00dde4;
+    padding-top: 53px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 27px;
+}
+footer p{
+	color: #fff;
+    font-size: 20px;
+}
+footer ul li{
+	list-style: none;
+	padding-top: 15px;
+}
+footer ul li a{
+	color: #fff;
+    margin-left: -30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.img-foot{
+	width: 45%;
+    padding-bottom: 30px;
+}
+.social-item{
+	padding-top: 32px;
+}
+.social-item ul{
+	padding: 0;
+}
+.social-item ul li{
+	list-style: none;
+	display: inline;
+	color: #fff;
+	margin: 0 22px;
+	display: inline;
+	padding: 0 1px;
+}
+.social-item ul li a .fa{
+	color: #000;
+	background: #fff;
+	text-align: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	line-height: 42px;
+	font-size: 25px;
+	transition: 0.4s ease-in-out;
+    margin-bottom: 40px;
+}
